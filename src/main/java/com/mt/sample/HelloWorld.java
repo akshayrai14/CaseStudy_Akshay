@@ -10,7 +10,8 @@ public class HelloWorld {
 
 	public static void main(String[] args) {
 		System.out.println("Hello Welcome to Maven Build Tool !! Today Date is:  " + getLocalCurrentDate());
-
+		System.out.println("Adding Changes to check if it reflects in the Github Actions Workflow");
+		
 	}
 
 	private static Date getLocalCurrentDate() {
